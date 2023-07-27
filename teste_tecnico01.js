@@ -25,7 +25,7 @@ const wrongDataFormat = [
     acc[color] = acc[color] || {}
     // 3- passo: criar uma propriedade com o tamanho que armazena 0
     acc[color][size] = acc[color][size] || 0 
-    //4- passo: matendo a expressão acima posso incrementar +1
+    //4- passo: mantendo a expressão acima posso incrementar +1
     acc[color][size] += 1
      return acc
   }, {})
